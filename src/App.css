@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+section {
+  padding: 40px;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 20px;
+}
+
+.graphic {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
