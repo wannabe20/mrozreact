@@ -1,3 +1,6 @@
+![obrazek](https://github.com/wannabe20/mrozreact/assets/148329711/bcc57061-652f-45fb-b894-cb2eb4a40565)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
