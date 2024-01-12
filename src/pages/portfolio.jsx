@@ -1,20 +1,20 @@
-import { Carousel } from 'bootstrap';
 import React from 'react';
-import NavScroll from '../components/header/navbar/navbar';
+
 import Footer from '../components/header/footer/footer';
 import {introdata} from '../Metadata'
-import Component from '../smazat';
+import Componenty from '../smazat';
+import MujNavbar from '../components/header/navbar/navbar';
 
 function Portfolio() {
     return (
         
         <div>
-             <NavScroll></NavScroll>
+             <MujNavbar></MujNavbar>
             <section id="section1">
                 <h2>
                     <introdata className="title"></introdata>
                 </h2>
-                <Component></Component>
+                <Componenty></Componenty>
             </section>
             
             <Footer></Footer>
