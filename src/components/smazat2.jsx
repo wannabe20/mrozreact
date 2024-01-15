@@ -55,7 +55,7 @@ const Componenty = () => {
         <h2>Contact me!</h2>
         <form>
           <input type="email" placeholder="name@email.com" />
-          <textarea placeholder="Type message here..."></textarea>
+          <textarea placeholder="HALOO"></textarea>
           <button type="submit">Send Message</button>
         </form>
       </div>
