@@ -7,7 +7,6 @@ export default function Footer() {
       <div className="ano">
         <div className="footerc">
           <a href="#" className="footer-item">Projects</a>
-          <a href="#" className="footer-item">Ecommerce</a>
           <a href="#" className="footer-item">Booking</a>
           <a href="#" className="footer-item">Management</a>
         </div>
@@ -17,7 +16,6 @@ export default function Footer() {
         </div>
         <div className="footerc">
           <a href="#" className="footer-item">Tech</a>
-          <a href="#" className="footer-item">Repo</a>
           <a href="#" className="footer-item">Docs</a>
           <a href="#" className="footer-item">Blog</a>
         </div>
@@ -44,7 +42,7 @@ export default function Footer() {
           className="footer-image"
         />
       </div>
-      <div className="footer-text">© 2023 by John Doe</div>
+      <div className="footer-text">©2023 by Lukáš Prchlík</div>
       <div className="footer-divider"></div>
     </div>
   );
