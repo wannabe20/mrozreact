@@ -1,11 +1,14 @@
 import React from 'react';
 import './styles.css';
+import ContactForm from './header/contact/contact';
+
+
 
 const Nechaou = () => {
   return (
     <div>
       {/* Intro Section */}
-      <div className="intro">
+      <div id="about" className="intro">
         <p>Meet Lukáš, the developer extraordinaire with a penchant for creativity and innovation.</p>
         <div className="social-links">
           <a href="https://www.facebook.com" target='_blank'>Facebook</a>
@@ -38,15 +41,7 @@ const Nechaou = () => {
         <img src="https://file.rendit.io/n/Wp2PhH9GGALBTFmP4XDi.png" alt="gallery image" />
       </div>
 
-      {/* Contact Section */}
-      <div className="contact">
-        <h2>Contact me!</h2>
-        <form>
-          <input type="email" placeholder="name@email.com" />
-          <textarea placeholder="HALOO"></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
+        <ContactForm></ContactForm>
     </div>
   );
 };

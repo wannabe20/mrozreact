@@ -1,7 +1,8 @@
 .ano {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  width: 65%;
+  justify-content: space-between;
 }
 .ano .footerc {
   align-items: center;
@@ -9,9 +10,8 @@
 
 .footerc {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footerc .footer-item:last-child {
@@ -26,9 +26,8 @@
   width: 100%;
   font-family: 'Work_Sans';
   color: #a6e1fa;
-  align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 
@@ -64,3 +63,66 @@
   position: relative;
 }
 
+
+
+/* Media queries pro tablet a telefon */
+
+@media screen and (max-width: 768px) {
+  /* Styly pro tablety */
+  .ano {
+    width: 100%; /* Nastavte šířku na 100% na tabletech */
+    padding: 0 10px; /* Přidejte vodorovné polštářky na tablety */
+  }
+
+  .ano .footerc {
+    align-items: flex-start; /* Zarovnání na začátek na tabletech */
+  }
+
+  .footer-item {
+    font-size: 1.5rem; /* Menší velikost fontu na tabletech */
+  }
+
+  .footer-image {
+    width: 50px; /* Menší velikost obrázku na tabletech */
+    height: 50px; /* Menší velikost obrázku na tabletech */
+  }
+
+  .footer-text {
+    font-size: 18px; /* Menší velikost fontu na tabletech */
+    line-height: 18px; /* Menší výška řádku na tabletech */
+  }
+
+  .footer-divider {
+    height: 16px; /* Menší výška oddělovače na tabletech */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styly pro telefony */
+  .ano {
+    flex-direction: column; /* Na telefonech uspořádejte flex prvky ve sloupci */
+    align-items: flex-start; /* Zarovnání na začátek na telefonech */
+  }
+
+  .ano .footerc {
+    align-items: flex-start; /* Zarovnání na začátek na telefonech */
+  }
+
+  .footer-item {
+    font-size: 1.2rem; /* Menší velikost fontu na telefonech */
+  }
+
+  .footer-image {
+    width: 40px; /* Menší velikost obrázku na telefonech */
+    height: 40px; /* Menší velikost obrázku na telefonech */
+  }
+
+  .footer-text {
+    font-size: 16px; /* Menší velikost fontu na telefonech */
+    line-height: 16px; /* Menší výška řádku na telefonech */
+  }
+
+  .footer-divider {
+    height: 12px; /* Menší výška oddělovače na telefonech */
+  }
+}

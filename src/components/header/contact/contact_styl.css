@@ -1,0 +1,33 @@
+/* Styly pro kontejner formuláře */
+.contact {
+    max-width: 728px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #a6e1fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Styly pro nadpis formuláře */
+  .contact h2 {
+    color: #ffffff;
+  }
+
+  /* Responsivní styly pro šířku obrazovky menší než 480px (pro telefony) */
+@media screen and (max-width: 480px) {
+  .contact {
+    max-width: 100%;
+  }
+}
+
+/* Responsivní styly pro šířku obrazovky mezi 481px a 768px (pro tablety) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .contact {
+    max-width: 80%;
+  }
+}

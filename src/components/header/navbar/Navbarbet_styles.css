@@ -7,13 +7,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; /* Upraveno na sloupcový layout */
+  flex-direction: column; /* Sloupcový layout */
 }
 
 .navbar div {
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 1rem; /* Upraveno na margin-bottom pro oddělení od odkazů */
+  margin-bottom: 1rem; /* Margin-bottom pro oddělení od odkazů */
 }
 
 .navbar a {
@@ -27,4 +27,28 @@
 
 .navbar a:hover {
   color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+  /* Responsivita pro tablety */
+  .navbar div {
+    font-size: 2rem; /* Menší font na tabletech */
+  }
+
+  .navbar a {
+    font-size: 1rem; /* Menší font na tabletech */
+    margin: 0.3rem; /* Menší odsazení na tabletech */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Responsivita pro telefony */
+  .navbar div {
+    font-size: 1.5rem; /* Menší font na telefonech */
+  }
+
+  .navbar a {
+    font-size: 1rem; /* Menší font na telefonech */
+    margin: 0.2rem; /* Menší odsazení na telefonech */
+  }
 }

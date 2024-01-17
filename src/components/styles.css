@@ -16,9 +16,10 @@ a {
 /* Styly pro Intro */
 .intro {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .intro p {
@@ -41,6 +42,31 @@ a {
 
 .social-links a:hover {
   color: #0056b3;
+}
+
+
+
+/* Styly pro vstupní pole a textové pole */
+.cont {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styly pro tlačítko odeslání */
+.yes button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover efekt pro tlačítko */
+.yes button:hover {
+  background-color: #45a049;
 }
 
 
@@ -84,10 +110,12 @@ a {
   margin: 1rem;
 }
 
-/* Contact Styles */
-.contact {
-  text-align: center;
-  padding: 2rem;
+
+
+/* Styly pro formulář */
+.yes {
+  display: flex;
+  flex-direction: column;
 }
 
 input, textarea {
@@ -106,3 +134,50 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+
+/* Media queries pro tablety a telefony */
+
+/* Obecné styly pro responsivitu */
+@media screen and (max-width: 768px) {
+  /* Styly pro tablety */
+  .intro p {
+    font-size: 1.5rem; /* Menší velikost fontu na tabletech */
+    max-width: 100%; /* Na tabletech rozšířte maximální šířku na 100% */
+  }
+
+  .social-links a {
+    font-size: 1rem; /* Menší velikost fontu na tabletech */
+  }
+
+  .skill-item {
+    margin: 0.3rem; /* Menší odsazení na tabletech */
+  }
+
+  .portfolio img {
+    width: 100%; /* Na tabletech nastavte šířku obrázku na 100% */
+    max-width: none; /* Na tabletech zrušte maximální šířku obrázku */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styly pro telefony */
+  .intro p {
+    font-size: 1.2rem; /* Menší velikost fontu na telefonech */
+  }
+
+  .social-links a {
+    font-size: 0.9rem; /* Menší velikost fontu na telefonech */
+  }
+
+  .skill-item {
+    margin: 0.2rem; /* Menší odsazení na telefonech */
+  }
+
+  .portfolio img {
+    width: 100%; /* Na telefonech nastavte šířku obrázku na 100% */
+    max-width: none; /* Na telefonech zrušte maximální šířku obrázku */
+    margin: 0.5rem 0; /* Odsazení obrázku na telefonech */
+  }
+}
+
