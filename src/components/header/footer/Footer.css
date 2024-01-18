@@ -100,12 +100,14 @@
 @media screen and (max-width: 480px) {
   /* Styly pro telefony */
   .ano {
-    flex-direction: column; /* Na telefonech uspořádejte flex prvky ve sloupci */
-    align-items: flex-start; /* Zarovnání na začátek na telefonech */
+    flex-direction: column;
+    align-items: center;  /* Zarovnání na začátek na telefonech */
+    display: flex;  /* Na telefonech uspořádejte flex prvky ve sloupci */
   }
 
   .ano .footerc {
-    align-items: flex-start; /* Zarovnání na začátek na telefonech */
+    align-items: center;
+    display: flex; /* Zarovnání na střed na telefonech */
   }
 
   .footer-item {
