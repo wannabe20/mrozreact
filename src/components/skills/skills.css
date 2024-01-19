@@ -1,0 +1,72 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rectangle {
+    background-color: #291631;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill-item {
+    position: relative;
+    flex: 1 0 48%;
+    margin: 10px;
+    border: 1px solid #b211a0;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  .skill-item:hover {
+    background-color: #551075;
+  }
+  
+  @keyframes fillAnimation {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes closeAnimation {
+    to {
+      width: 0;
+    }
+  }
+  
+.skill-item > div{
+    z-index: 1;
+}
+  
+  .percentage {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8418b7;
+    color: white;
+    padding: 5px;
+    animation: fillAnimation 1s ease-in-out;
+    opacity: 66%;
+  }
+  
+  .closing {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8418b7;
+    color: white;
+    padding: 5px;
+    animation: closeAnimation 1s ease-out;
+  }
+   

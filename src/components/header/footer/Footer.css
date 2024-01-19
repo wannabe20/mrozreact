@@ -4,6 +4,7 @@
   width: 65%;
   justify-content: space-around;
   margin-right: 70px;
+  margin-top: 25px;
 }
 .ano .footerc {
   align-items: center;
@@ -21,7 +22,7 @@
 
 
 .footer-container {
-  background-color: #001c55;
+  background-color: #1c095f;
   position: relative;
   display: flex;
   width: 100%;
@@ -41,6 +42,7 @@
 
 .footer-image-container {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .footer-image {
@@ -68,7 +70,7 @@
 
 /* Media queries pro tablet a telefon */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   /* Styly pro tablety */
   .ano {
     width: 100%; /* Nastavte šířku na 100% na tabletech */
@@ -105,6 +107,7 @@
     align-items: center;  /* Zarovnání na začátek na telefonech */
     display: flex;  /* Na telefonech uspořádejte flex prvky ve sloupci */
     margin-right: 0px;
+       
   }
 
   .ano .footerc {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import ContactForm from './header/contact/contact';
+import Skills from './skills/skills';
 
 const Nechaou = () => {
   return (
@@ -16,19 +17,7 @@ const Nechaou = () => {
       </div>
 
       {/* Skills Showcase */}
-      <div className="skills">
-        <div className="circle">
-          <h2>Skills</h2>
-        </div>
-        <div className="skill-container">
-          <div className="skill-item">C# Guru</div>
-          <div className="skill-item">Java Master</div>
-          <div className="skill-item">React</div>
-          <div className="skill-item">Anything</div>
-          <div className="skill-item">Blender</div>
-          <div className="skill-item">Design Magician</div>
-        </div>
-      </div>
+      <Skills></Skills>
 
       {/* Portfolio Gallery */}
       <div className="portfolio">
