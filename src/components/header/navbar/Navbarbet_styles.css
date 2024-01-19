@@ -13,8 +13,8 @@
 .navbar div {
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 1rem; /* Margin-bottom pro oddělení od odkazů */
 }
+
 
 .navbar a {
   color: #fff;

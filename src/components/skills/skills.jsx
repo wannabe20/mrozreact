@@ -26,11 +26,26 @@ const SkillItem = ({ title, percentage }) => {
 };
 
 const Skills = () => {
+  const [showSecret, setShowSecret] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowSecret(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowSecret(false);
+  };
+
+  const handleClick = () => {
+    
+    window.location.href = "https://www.youtube.com/watch?v=eSkK2kqU3JM";
+  }
   return (
-    <div className="skills">
-      <div className="rectangle">
+    <div id="skills" className="skills">
+      <div className="rectangle" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={handleClick}>
         <h2>Skills</h2>
       </div>
+      {showSecret && <div className="secret-popup">Click on "Skills" to reveal a secret!</div>}
       <div className="skill-container">
         <SkillItem title="C#" percentage={70} />
         <SkillItem title="Java" percentage={75} />

@@ -127,10 +127,6 @@ button {
     font-size: 1rem; /* Menší velikost fontu na tabletech */
   }
 
-  .skill-item {
-    margin: 0.3rem; /* Menší odsazení na tabletech */
-  }
-
   .portfolio img {
     width: 100%; /* Na tabletech nastavte šířku obrázku na 100% */
     max-width: none; /* Na tabletech zrušte maximální šířku obrázku */
@@ -147,30 +143,11 @@ button {
     font-size: 0.9rem; /* Menší velikost fontu na telefonech */
   }
 
-  .skill-item {
-    margin: 0.2rem; /* Menší odsazení na telefonech */
-  }
-
   .portfolio img {
     width: 100%; /* Na telefonech nastavte šířku obrázku na 100% */
     max-width: none; /* Na telefonech zrušte maximální šířku obrázku */
     margin: 0.5rem 0; /* Odsazení obrázku na telefonech */
   }
-  .skills {
-    text-align: center;
-      padding: 60px;
-      display: flex;
-      justify-content: center;
-      margin-right: 0px;
-      margin-bottom: 100px;
-  }
 
-  .skill-container {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    width: 150px;
-    height: 150px;
-    top: 44%;
-  }
 }
 

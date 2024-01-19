@@ -20,7 +20,7 @@ const Nechaou = () => {
       <Skills></Skills>
 
       {/* Portfolio Gallery */}
-      <div className="portfolio">
+      <div id="projects" className="portfolio">
         <img src="https://file.rendit.io/n/cr8jy267xtW4dpDewgN4.png" alt="gallery image" />
         <img src="https://file.rendit.io/n/cH3D9RT5uw2D9kcdI1R5.png" alt="gallery image" />
         <img src="https://file.rendit.io/n/XsnIKvWl2qoBmLzc1OAU.png" alt="gallery image" />

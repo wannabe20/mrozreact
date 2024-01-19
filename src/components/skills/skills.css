@@ -13,7 +13,7 @@
   .skill-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
   
   .skill-item {
@@ -27,6 +27,7 @@
     text-align: center;
     overflow: hidden;
     z-index: 0;
+    border-radius: 10px
   }
   
   .skill-item:hover {
@@ -70,3 +71,16 @@
     animation: closeAnimation 1s ease-out;
   }
    
+
+  @media screen and (max-width: 850px) {
+    .skill-item {
+      flex: 1 0 100%; /* Úprava pro zobrazení na zařízeních s šířkou do 850px */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .skill-item {
+      flex: 1 0 100%; /* Úprava pro zobrazení na zařízeních s šířkou do 480px */
+      display: block; /* Změna z flex na block pro správné zobrazení obsahu na malých obrazovkách */
+    }
+}
