@@ -6,17 +6,14 @@ export default function Footer() {
     <div id="Footr" className="footer-container">
       <div className="ano">
         <div className="footerc">
-          <a href="#" className="footer-item">Projects</a>
           <a href="#" className="footer-item">Booking</a>
           <a href="#" className="footer-item">Management</a>
         </div>
         <div className="footerc">
-          <a href="#" className="footer-item">Contact</a>
           <a href="#" className="footer-item">Email</a>
         </div>
         <div className="footerc">
           <a href="#" className="footer-item">Tech</a>
-          <a href="#" className="footer-item">Docs</a>
           <a href="#" className="footer-item">Blog</a>
         </div>
       </div>
