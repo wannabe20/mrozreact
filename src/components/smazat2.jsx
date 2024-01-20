@@ -1,20 +1,22 @@
 import React from 'react';
 import './styles.css';
-import ContactForm from './header/contact/contact';
 import Skills from './skills/skills';
+import ContactForm from './header/contact/contact';
 
 const Nechaou = () => {
   return (
     <div>
       {/* Intro Section */}
       <div id="about" className="intro">
-        <p>Meet Lukáš, the developer extraordinaire with a penchant for creativity and innovation.</p>
-        <div className="social-links">
-          <a href="https://www.facebook.com" target='_blank' rel="noopener noreferrer">Facebook</a>
-          <a href="https://github.com/wannabe20" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://twitter.com" target='_blank' rel="noopener noreferrer">Twitter</a>
-        </div>
-      </div>
+  <div className="background-image"></div> {/* Tato část přidá obrázek jako pozadí */}
+  <p>Meet Lukáš Prchlík, the developer extraordinaire with a passion for creativity and innovation.</p>
+  <div className="social-links">
+    <a href="https://www.facebook.com" target='_blank' rel="noopener noreferrer">Facebook</a>
+    <a href="https://github.com/wannabe20" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://twitter.com" target='_blank' rel="noopener noreferrer">Twitter</a>
+  </div>
+</div>
+
 
       {/* Skills Showcase */}
       <Skills></Skills>
@@ -27,7 +29,7 @@ const Nechaou = () => {
         <img src="https://file.rendit.io/n/Wp2PhH9GGALBTFmP4XDi.png" alt="gallery image" />
       </div>
 
-      <ContactForm />
+    <ContactForm></ContactForm>
     </div>
   );
 };

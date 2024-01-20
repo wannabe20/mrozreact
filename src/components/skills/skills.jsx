@@ -39,7 +39,7 @@ const Skills = () => {
   const handleClick = () => {
     
     window.location.href = "https://www.youtube.com/watch?v=eSkK2kqU3JM";
-  }
+  } 
   return (
     <div id="skills" className="skills">
       <div className="rectangle" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={handleClick}>

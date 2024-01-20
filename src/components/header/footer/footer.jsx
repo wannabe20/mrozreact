@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"; 
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -7,37 +7,38 @@ export default function Footer() {
       <div className="ano">
         <div className="footerc">
           <a href="#" className="footer-item">Booking</a>
-          <a href="#" className="footer-item">Management</a>
+          <a href="#" className="footer-item">Schedule</a>
         </div>
         <div className="footerc">
           <a href="#" className="footer-item">Email</a>
         </div>
         <div className="footerc">
-          <a href="#" className="footer-item">Tech</a>
-          <a href="#" className="footer-item">Blog</a>
+          <a href="#" className="footer-item">Setup</a>
+          <a href="" className="footer-item">Contact</a>
         </div>
       </div>
       <div className="footer-image-container">
-        <img
-          src="https://file.rendit.io/n/Q3AfpY3fvibHj19BWsZ0.svg"
-          alt="Image1"
-          className="footer-image"
-        />
-        <img
-          src="https://file.rendit.io/n/mgI8uqqOq9DLKNOlkQUM.svg"
-          alt="Image2"
-          className="footer-image"
-        />
-        <img
-          src="https://file.rendit.io/n/2fpEPAMJcG7bCW0sQAJ5.svg"
-          alt="Image3"
-          className="footer-image"
-        />
-        <img
-          src="https://file.rendit.io/n/GqYEP9OWA6NjZkWuUQ8Q.svg"
-          alt="Image4"
-          className="footer-image"
-        />
+        <a href="https://www.instagram.com/prchlik20/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://file.rendit.io/n/mgI8uqqOq9DLKNOlkQUM.svg"
+            alt="Instagram"
+            className="footer-image"
+          />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://file.rendit.io/n/2fpEPAMJcG7bCW0sQAJ5.svg"
+            alt="Facebook"
+            className="footer-image"
+          />
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://file.rendit.io/n/Q3AfpY3fvibHj19BWsZ0.svg"
+            alt="Twitter"
+            className="footer-image"
+          />
+        </a>
       </div>
       <div className="footer-text">©2023 by Lukáš Prchlík</div>
       <div className="footer-divider"></div>
