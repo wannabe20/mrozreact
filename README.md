@@ -1,5 +1,8 @@
 ![obrazek](https://github.com/wannabe20/mrozreact/assets/148329711/bcc57061-652f-45fb-b894-cb2eb4a40565)
 
+Tento Web je mé portfolio, které není z daleka hotové, je to podstatě základ k tomu co budu potřebovat doplňovat postupem času. Základy jsou položeny. 
+Design je jednoduchý, ale v jednoduchosti je krása.
+Ve footeru budu muset poté někdy udělat ještě všechny odkazy funkční.
 
 # Getting Started with Create React App
 
