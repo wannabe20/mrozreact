@@ -8,7 +8,7 @@ const Nechaou = () => {
     <div>
       {/* Intro Section */}
       <div id="about" className="intro">
-  <div className="background-image"></div> {/* Tato část přidá obrázek jako pozadí */}
+  <div className="background-image"></div>
   <p>Meet Lukáš Prchlík, the developer extraordinaire with a passion for creativity and innovation.</p>
   <div className="social-links">
     <a href="https://www.facebook.com" target='_blank' rel="noopener noreferrer">Facebook</a>
@@ -16,7 +16,6 @@ const Nechaou = () => {
     <a href="https://twitter.com" target='_blank' rel="noopener noreferrer">Twitter</a>
   </div>
 </div>
-
 
       {/* Skills Showcase */}
       <Skills></Skills>
