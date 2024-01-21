@@ -1,7 +1,9 @@
 Tento Web je mé portfolio, které není z daleka hotové, je to podstatě základ k tomu co budu potřebovat doplňovat postupem času. Základy jsou položeny. 
 Design je jednoduchý, ale v jednoduchosti je krása.
 Ve footeru budu muset poté někdy udělat ještě všechny odkazy funkční.
-Zvolil jsem také jinou barevnou škálu než ve vzoru, protože mi to připadalo jako pro nemocnici ta světle modrá
+V headeru bych chtěl ještě udělat svoje nějaké logo, které vytvořím jak budu mít čas. 
+Zvolil jsem také jinou barevnou škálu než ve vzoru, protože mi to připadalo jako pro nemocnici ta světle modrá.
+Osobně bych si toto portfolio zhodnotil 7/10 na to co to je a má splňovat, je určitě možnost, aby to bylo ještě lepší
 
 ![obrazek](https://github.com/wannabe20/mrozreact/assets/148329711/bcc57061-652f-45fb-b894-cb2eb4a40565)
 
